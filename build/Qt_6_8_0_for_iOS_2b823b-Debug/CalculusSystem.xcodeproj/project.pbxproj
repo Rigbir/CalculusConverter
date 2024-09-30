@@ -1,0 +1,1320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug -f CalculusSystem.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		573985CC2A78097D095DA33C = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/BinarySystem.cpp";
+			name = "BinarySystem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0C7FE9E3568DA6D94038B716 = {
+			fileRef = "573985CC2A78097D095DA33C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7CD0DF2E866F65F2F07E3ECC = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/DecimalSystem.cpp";
+			name = "DecimalSystem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5A4A4CC0D9EAEFCC6D727109 = {
+			fileRef = "7CD0DF2E866F65F2F07E3ECC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BC737A45A106EAA945EDA7FC = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/HexadecimalSystem.cpp";
+			name = "HexadecimalSystem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		88FE3024F6D626D387FABF90 = {
+			fileRef = "BC737A45A106EAA945EDA7FC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E30F6AD995277360BE5B040C = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/OctalSystem.cpp";
+			name = "OctalSystem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B6BABC4968E864CBA3B3AB3D = {
+			fileRef = "E30F6AD995277360BE5B040C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BFC62ACB0941381357DF15B1 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/desktop.cpp";
+			name = "desktop.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EB6FC245B7EA2BD37D590AAE = {
+			fileRef = "BFC62ACB0941381357DF15B1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3901B1253460F471CF4DA832 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BC00BE6F4A6A7657186263B3 = {
+			fileRef = "3901B1253460F471CF4DA832";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A43FBC130F28D33A02BB64E6 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/mobile.cpp";
+			name = "mobile.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CD4685183E7C9703F9C52BF6 = {
+			fileRef = "A43FBC130F28D33A02BB64E6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		56A43D6D5CB876C0B9FFBFF2 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/calculussystem_plugin_import.cpp";
+			name = "calculussystem_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A53C9B5BDF675BB498DF2466 = {
+			fileRef = "56A43D6D5CB876C0B9FFBFF2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		98762673723DBB6A9F4F8EB6 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/qrc_resources.cpp";
+			name = "qrc_resources.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		20BDD665F4EB5EDF30B082BE = {
+			fileRef = "98762673723DBB6A9F4F8EB6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B3414EEBF7D897DE1870116A = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/moc_desktop.cpp";
+			name = "moc_desktop.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B82FD828397DE7CEC903A02A = {
+			fileRef = "B3414EEBF7D897DE1870116A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		506FFA6C0F9C936382CF1057 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/moc_mobile.cpp";
+			name = "moc_mobile.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C58BE00F03B369CFB5A689C0 = {
+			fileRef = "506FFA6C0F9C936382CF1057";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B15EE2688D3F75698531D10A = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/ui_desktop.h";
+			name = "ui_desktop.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		01C9A19665FF393E376D01F3 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/ui_mobile.h";
+			name = "ui_mobile.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2447D314681BD1EA06590CC5 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/BinarySystem.h";
+			name = "BinarySystem.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5BAEC02260323427FE915BF9 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/DecimalSystem.h";
+			name = "DecimalSystem.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A8A84CDE8A803E258567BC9D = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/HexadecimalSystem.h";
+			name = "HexadecimalSystem.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1B379B9D39928DD0D9E21820 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/Library.h";
+			name = "Library.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A0A4D49DCF2135FEC687BF73 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/OctalSystem.h";
+			name = "OctalSystem.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5CC836BDED4E0175D8A512D0 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/desktop.h";
+			name = "desktop.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4BCC2B4ECE466FE8EF20F5CC = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/mobile.h";
+			name = "mobile.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		56F97BFA9E45BD65C9DA0964 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/testingForInput.h";
+			name = "testingForInput.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3DEE7CF6C61B301CA7016CF1 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/resources.qrc";
+			name = "resources.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		D23AEE918302CA55DE298818 = {
+			fileRef = "3DEE7CF6C61B301CA7016CF1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		835AF5F310D9DDFF9978310D = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/desktop.ui";
+			name = "desktop.ui";
+			sourceTree = "<absolute>";
+		};
+		AD69AD5E51010BEC3A2ACAAE = {
+			fileRef = "835AF5F310D9DDFF9978310D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		72CC153FCD1498949DCBC653 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/mobile.ui";
+			name = "mobile.ui";
+			sourceTree = "<absolute>";
+		};
+		CB6223C748D71CD53F5FC238 = {
+			fileRef = "72CC153FCD1498949DCBC653";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		951FD1AF80398847B7710DC1 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/CalculusSystem.pro";
+			name = "CalculusSystem.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		9FE4B0BB0683E3C17BEDCE5B = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		F730D196CCB4DDCE7B54067B = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/CalculusSystem.pro";
+			name = "CalculusSystem.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"C5C31264768DCC05446CDDCF");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		C5C31264768DCC05446CDDCF = {
+			isa = PBXGroup;
+			children = (
+				"93AF433467960B41F5F7E6EF");
+			name = "build";
+			sourceTree = "<group>";
+		};
+		93AF433467960B41F5F7E6EF = {
+			isa = PBXGroup;
+			children = (
+				"56A43D6D5CB876C0B9FFBFF2",
+				"98762673723DBB6A9F4F8EB6",
+				"B3414EEBF7D897DE1870116A",
+				"506FFA6C0F9C936382CF1057",
+				"B15EE2688D3F75698531D10A",
+				"01C9A19665FF393E376D01F3");
+			name = "Qt_6_8_0_for_iOS_2b823b-Debug";
+			sourceTree = "<group>";
+		};
+		848FDE7AF9516BAF92CAEB93 = {
+			isa = PBXGroup;
+			children = (
+				"BA91F50357310990B71222CB");
+			name = "build";
+			sourceTree = "<group>";
+		};
+		BA91F50357310990B71222CB = {
+			isa = PBXGroup;
+			children = (
+				"951FD1AF80398847B7710DC1");
+			name = "Qt_6_8_0_for_iOS_2b823b-Debug";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"3DEE7CF6C61B301CA7016CF1");
+			name = "Resources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"573985CC2A78097D095DA33C",
+				"7CD0DF2E866F65F2F07E3ECC",
+				"BC737A45A106EAA945EDA7FC",
+				"E30F6AD995277360BE5B040C",
+				"BFC62ACB0941381357DF15B1",
+				"3901B1253460F471CF4DA832",
+				"A43FBC130F28D33A02BB64E6",
+				"2447D314681BD1EA06590CC5",
+				"5BAEC02260323427FE915BF9",
+				"A8A84CDE8A803E258567BC9D",
+				"1B379B9D39928DD0D9E21820",
+				"A0A4D49DCF2135FEC687BF73",
+				"5CC836BDED4E0175D8A512D0",
+				"4BCC2B4ECE466FE8EF20F5CC",
+				"56F97BFA9E45BD65C9DA0964");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		12E908B8A1C3C07C115504F5 = {
+			isa = PBXGroup;
+			children = (
+				"835AF5F310D9DDFF9978310D",
+				"72CC153FCD1498949DCBC653");
+			name = "Sources [uic]";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"848FDE7AF9516BAF92CAEB93",
+				"9FE4B0BB0683E3C17BEDCE5B",
+				"F730D196CCB4DDCE7B54067B");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			inputPaths = (
+				"../../resources.qrc",
+				"../../desktop.h",
+				"../../mobile.h",
+				"../../desktop.ui",
+				"../../mobile.ui");
+			outputPaths = (
+				"qrc_resources.cpp",
+				"moc_desktop.cpp",
+				"moc_mobile.cpp",
+				"ui_desktop.h",
+				"ui_mobile.h");
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug -f CalculusSystem.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+			alwaysOutOfDate = "1";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"0C7FE9E3568DA6D94038B716",
+				"5A4A4CC0D9EAEFCC6D727109",
+				"88FE3024F6D626D387FABF90",
+				"B6BABC4968E864CBA3B3AB3D",
+				"EB6FC245B7EA2BD37D590AAE",
+				"BC00BE6F4A6A7657186263B3",
+				"CD4685183E7C9703F9C52BF6",
+				"A53C9B5BDF675BB498DF2466",
+				"20BDD665F4EB5EDF30B082BE",
+				"B82FD828397DE7CEC903A02A",
+				"C58BE00F03B369CFB5A689C0");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		D0807D73717D74DEDF19F4E2 = {
+			isa = PBXFileReference;
+			name = "qrc_qpdf_init.cpp.o";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/objects-Release/Gui_resources_1/.qt/rcc/qrc_qpdf_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7EFF5E4AD73C557ED739FF64 = {
+			fileRef = "D0807D73717D74DEDF19F4E2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9E956345A0A84C79A05E4F53 = {
+			isa = PBXFileReference;
+			name = "qrc_gui_shaders_init.cpp.o";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/objects-Release/Gui_resources_2/.qt/rcc/qrc_gui_shaders_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		50FF6D2F1E628EE5E47EEF0F = {
+			fileRef = "9E956345A0A84C79A05E4F53";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C0773AA827B692E080F7AC8E = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/marat/Qt/6.8.0/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5AE9D0CEEDFEFD136A3A8AB9 = {
+			fileRef = "C0773AA827B692E080F7AC8E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C44131FDCFEF4396B9EA2BA = {
+			isa = PBXFileReference;
+			name = "AudioToolbox.framework";
+			path = "/System/Library/Frameworks/AudioToolbox.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		4EB68D0C8182BCE33529C421 = {
+			fileRef = "3C44131FDCFEF4396B9EA2BA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BD5FCA7D802D96BED4D98BB2 = {
+			isa = PBXFileReference;
+			name = "Photos.framework";
+			path = "/System/Library/Frameworks/Photos.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		608694C2F85C903B08FF61AE = {
+			fileRef = "BD5FCA7D802D96BED4D98BB2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A848B31FB4A080B3F1D4271E = {
+			isa = PBXFileReference;
+			name = "qsvgicon";
+			path = "/Users/marat/Qt/6.8.0/ios/plugins/iconengines/libqsvgicon$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		624C2895E1F8D67F357DA57C = {
+			fileRef = "A848B31FB4A080B3F1D4271E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5A900441D774EFC89E8CE4B9 = {
+			isa = PBXFileReference;
+			name = "qgif";
+			path = "/Users/marat/Qt/6.8.0/ios/plugins/imageformats/libqgif$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F48A2BD5C146705294EFA214 = {
+			fileRef = "5A900441D774EFC89E8CE4B9";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D9D957E4344B4517DC3AE94A = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/marat/Qt/6.8.0/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0E78366390BE0EA32916D1EE = {
+			fileRef = "D9D957E4344B4517DC3AE94A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		76382C9F1D37EFC4E66C0106 = {
+			isa = PBXFileReference;
+			name = "qjpeg";
+			path = "/Users/marat/Qt/6.8.0/ios/plugins/imageformats/libqjpeg$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		EB396C329E4AACB87802211A = {
+			fileRef = "76382C9F1D37EFC4E66C0106";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		44DC0E06B67E82D6736FFD9C = {
+			isa = PBXFileReference;
+			name = "libQt6BundledLibjpeg.a";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/libQt6BundledLibjpeg.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B06FDB6FD48FEA7C6BD2886E = {
+			fileRef = "44DC0E06B67E82D6736FFD9C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		05D7528C4AFCDB08A0EFA589 = {
+			isa = PBXFileReference;
+			name = "qsvg";
+			path = "/Users/marat/Qt/6.8.0/ios/plugins/imageformats/libqsvg$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4D38B30ADFE886535C35A3FF = {
+			fileRef = "05D7528C4AFCDB08A0EFA589";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D91DD80EF9129EDD87B40728 = {
+			isa = PBXFileReference;
+			name = "QtSvg.framework";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/QtSvg.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		D1D14E8A2CFB74C892455499 = {
+			fileRef = "D91DD80EF9129EDD87B40728";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1A67BEAA744704B29168D39 = {
+			isa = PBXFileReference;
+			name = "IOKit.framework";
+			path = "/System/Library/Frameworks/IOKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8D267F2E4776F0ECA2F49DC8 = {
+			fileRef = "A1A67BEAA744704B29168D39";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5F9A4B2B3FF5EC87C57CF6B4 = {
+			isa = PBXFileReference;
+			name = "UniformTypeIdentifiers.framework";
+			path = "/System/Library/Frameworks/UniformTypeIdentifiers.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F30795E5207D73289814C47C = {
+			fileRef = "5F9A4B2B3FF5EC87C57CF6B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FD1BB3570378CD99BF1DC894 = {
+			isa = PBXFileReference;
+			name = "libQt6BundledPcre2.a";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/libQt6BundledPcre2.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D8F9DF83E39DC6DE8F2A1ECA = {
+			fileRef = "FD1BB3570378CD99BF1DC894";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A8EF9C62A8D4790CBB89CEA = {
+			isa = PBXFileReference;
+			name = "ImageIO.framework";
+			path = "/System/Library/Frameworks/ImageIO.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		61EEC397DC8556BF8C4E36A7 = {
+			fileRef = "3A8EF9C62A8D4790CBB89CEA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F3B2E65ACA6AF71743D8869E = {
+			isa = PBXFileReference;
+			name = "libQt6BundledHarfbuzz.a";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/libQt6BundledHarfbuzz.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		84F42B395EA81604154DA85B = {
+			fileRef = "F3B2E65ACA6AF71743D8869E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		571C84A6944923E3E267F514 = {
+			isa = PBXFileReference;
+			name = "libQt6BundledFreetype.a";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/libQt6BundledFreetype.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0A7ADF39E3333015E0648751 = {
+			fileRef = "571C84A6944923E3E267F514";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		243B21636B817EB7C2FA8598 = {
+			isa = PBXFileReference;
+			name = "libQt6BundledLibpng.a";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/libQt6BundledLibpng.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C3D8574BA54FBFCD3F8AA739 = {
+			fileRef = "243B21636B817EB7C2FA8598";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1B2543FCC48E9436F21C4F63 = {
+			isa = PBXFileReference;
+			name = "Metal.framework";
+			path = "/System/Library/Frameworks/Metal.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B3FE8FAC746D3D5BB24FA398 = {
+			fileRef = "1B2543FCC48E9436F21C4F63";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA4164219E41B9624EB658C0 = {
+			isa = PBXFileReference;
+			name = "QtUiTools.framework";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/QtUiTools.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		20C261F6C3DECE5D4EFC8AD5 = {
+			fileRef = "FA4164219E41B9624EB658C0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AC0A27EF1B878D2CC3A62963 = {
+			isa = PBXFileReference;
+			name = "QtOpenGLWidgets.framework";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/QtOpenGLWidgets.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8605784B266A1714A57D9424 = {
+			fileRef = "AC0A27EF1B878D2CC3A62963";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A439E5028EA243AFCB5D0575 = {
+			isa = PBXFileReference;
+			name = "QtWidgets.framework";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8587772EDF814783A8184D37 = {
+			fileRef = "A439E5028EA243AFCB5D0575";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		81AEE45240501CBC2489A5FA = {
+			isa = PBXFileReference;
+			name = "QtOpenGL.framework";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/QtOpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		EDBDC6B195479DC7D026A4F0 = {
+			fileRef = "81AEE45240501CBC2489A5FA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		45FB3F49A7E002CF96AD2049 = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F34A7098EEEA72912239C747 = {
+			fileRef = "45FB3F49A7E002CF96AD2049";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5DEB9FA2E4038F7D11B24D4D = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/Users/marat/Qt/6.8.0/ios/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		80EAC78216F5F0378B3BDB11 = {
+			fileRef = "5DEB9FA2E4038F7D11B24D4D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"D0807D73717D74DEDF19F4E2",
+				"9E956345A0A84C79A05E4F53",
+				"C0773AA827B692E080F7AC8E",
+				"3C44131FDCFEF4396B9EA2BA",
+				"BD5FCA7D802D96BED4D98BB2",
+				"A848B31FB4A080B3F1D4271E",
+				"5A900441D774EFC89E8CE4B9",
+				"D9D957E4344B4517DC3AE94A",
+				"76382C9F1D37EFC4E66C0106",
+				"44DC0E06B67E82D6736FFD9C",
+				"05D7528C4AFCDB08A0EFA589",
+				"D91DD80EF9129EDD87B40728",
+				"A1A67BEAA744704B29168D39",
+				"5F9A4B2B3FF5EC87C57CF6B4",
+				"FD1BB3570378CD99BF1DC894",
+				"3A8EF9C62A8D4790CBB89CEA",
+				"4D765E1B1EA6C757220C63E7",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"7EC00404ACD5AB0E97726B0E",
+				"FCC237CA5AD60B9BA4447615",
+				"F3B2E65ACA6AF71743D8869E",
+				"7D7B02101166B76FD2D4F8B4",
+				"571C84A6944923E3E267F514",
+				"243B21636B817EB7C2FA8598",
+				"1B2543FCC48E9436F21C4F63",
+				"FA4164219E41B9624EB658C0",
+				"AC0A27EF1B878D2CC3A62963",
+				"A439E5028EA243AFCB5D0575",
+				"81AEE45240501CBC2489A5FA",
+				"45FB3F49A7E002CF96AD2049",
+				"5DEB9FA2E4038F7D11B24D4D");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"7EFF5E4AD73C557ED739FF64",
+				"50FF6D2F1E628EE5E47EEF0F",
+				"5AE9D0CEEDFEFD136A3A8AB9",
+				"4EB68D0C8182BCE33529C421",
+				"608694C2F85C903B08FF61AE",
+				"624C2895E1F8D67F357DA57C",
+				"F48A2BD5C146705294EFA214",
+				"0E78366390BE0EA32916D1EE",
+				"EB396C329E4AACB87802211A",
+				"B06FDB6FD48FEA7C6BD2886E",
+				"4D38B30ADFE886535C35A3FF",
+				"D1D14E8A2CFB74C892455499",
+				"8D267F2E4776F0ECA2F49DC8",
+				"F30795E5207D73289814C47C",
+				"D8F9DF83E39DC6DE8F2A1ECA",
+				"61EEC397DC8556BF8C4E36A7",
+				"F8B465CE34D8DF87AAE95913",
+				"0CE02722F00CAD43741297B5",
+				"B460F624007324313696BE86",
+				"F26454630C80841CBDCFE1CA",
+				"84F42B395EA81604154DA85B",
+				"2B02D9DC58A01E45248DDBCE",
+				"0A7ADF39E3333015E0648751",
+				"C3D8574BA54FBFCD3F8AA739",
+				"B3FE8FAC746D3D5BB24FA398",
+				"20C261F6C3DECE5D4EFC8AD5",
+				"8605784B266A1714A57D9424",
+				"8587772EDF814783A8184D37",
+				"EDBDC6B195479DC7D026A4F0",
+				"F34A7098EEEA72912239C747",
+				"80EAC78216F5F0378B3BDB11");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		3C0C6A83A7246589BDDCBD52 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/CalculusSystem.xcodeproj/LaunchScreen.storyboard";
+			name = "LaunchScreen.storyboard";
+			sourceTree = "<absolute>";
+		};
+		78C3D5E65760AF7A789D2F0B = {
+			fileRef = "3C0C6A83A7246589BDDCBD52";
+			isa = PBXBuildFile;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"3C0C6A83A7246589BDDCBD52");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				"78C3D5E65760AF7A789D2F0B");
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		99542592E9780B9225F24AA8 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5FE834797E1F75463AD3A1 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "CalculusSystem.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"9D5FE834797E1F75463AD3A1");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"87DF60DE337FB58864343E39",
+				"12E908B8A1C3C07C115504F5",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "CalculusSystem";
+			sourceTree = "<group>";
+		};
+		4343057C0D79942245929293 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		AEC9D0CAE0407E3962860696 = {
+			isa = PBXTargetDependency;
+			target = "4343057C0D79942245929293";
+		};
+		A16867A62383851C05B9B14B = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508",
+				"99542592E9780B9225F24AA8");
+			dependencies = (
+				"AEC9D0CAE0407E3962860696");
+			productReference = "9D5FE834797E1F75463AD3A1";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "CalculusSystem";
+			productName = "CalculusSystem";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "CalculusSystem";
+				QMAKE_FULL_VERSION = "1.0.0";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.0.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "$(PROJECT_DIR)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "16.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../../../CalculusSystem",
+					".",
+					"../../../../Qt/6.8.0/ios/mkspecs/common/uikit",
+					"../../../../Qt/6.8.0/ios/lib/QtUiTools.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtOpenGLWidgets.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtOpenGL.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtGui.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers",
+					".",
+					".",
+					"../../../../Qt/6.8.0/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/marat/Qt/6.8.0/ios/lib/objects-Release/Gui_resources_1/.qt/rcc",
+					"/Users/marat/Qt/6.8.0/ios/lib/objects-Release/Gui_resources_2/.qt/rcc",
+					"/Users/marat/Qt/6.8.0/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/marat/Qt/6.8.0/ios/plugins/iconengines",
+					"/Users/marat/Qt/6.8.0/ios/plugins/imageformats",
+					"/Users/marat/Qt/6.8.0/ios/lib");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/marat/Qt/6.8.0/ios/lib",
+					"/Users/marat/Qt/6.8.0/ios/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-Wextra",
+					"-DQT_QML_DEBUG",
+					"-DQT_UITOOLS_LIB",
+					"-DQT_OPENGLWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-DQT_QML_DEBUG",
+					"-DQT_UITOOLS_LIB",
+					"-DQT_OPENGLWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-F/Users/marat/Qt/6.8.0/ios/lib",
+						"-lm",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"UIKit",
+						"-lz",
+						"-framework",
+						"OpenGLES",
+						"-Wl,-e,_qt_main_wrapper");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "CalculusSystem";
+				QMAKE_FULL_VERSION = "1.0.0";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.0.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "CalculusSystem";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "CalculusSystem";
+				QMAKE_FULL_VERSION = "1.0.0";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.0.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "$(PROJECT_DIR)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "16.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../../../CalculusSystem",
+					".",
+					"../../../../Qt/6.8.0/ios/mkspecs/common/uikit",
+					"../../../../Qt/6.8.0/ios/lib/QtUiTools.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtOpenGLWidgets.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtOpenGL.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtGui.framework/Headers",
+					"../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers",
+					".",
+					".",
+					"../../../../Qt/6.8.0/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/marat/Qt/6.8.0/ios/lib/objects-Release/Gui_resources_1/.qt/rcc",
+					"/Users/marat/Qt/6.8.0/ios/lib/objects-Release/Gui_resources_2/.qt/rcc",
+					"/Users/marat/Qt/6.8.0/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/marat/Qt/6.8.0/ios/plugins/iconengines",
+					"/Users/marat/Qt/6.8.0/ios/plugins/imageformats",
+					"/Users/marat/Qt/6.8.0/ios/lib");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/marat/Qt/6.8.0/ios/lib",
+					"/Users/marat/Qt/6.8.0/ios/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-Wextra",
+					"-DQT_QML_DEBUG",
+					"-DQT_UITOOLS_LIB",
+					"-DQT_OPENGLWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-DQT_QML_DEBUG",
+					"-DQT_UITOOLS_LIB",
+					"-DQT_OPENGLWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-F/Users/marat/Qt/6.8.0/ios/lib",
+						"-lm",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"UIKit",
+						"-lz",
+						"-framework",
+						"OpenGLES",
+						"-Wl,-e,_qt_main_wrapper");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "CalculusSystem";
+				QMAKE_FULL_VERSION = "1.0.0";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.0.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "CalculusSystem";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"A16867A62383851C05B9B14B",
+				"4343057C0D79942245929293");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

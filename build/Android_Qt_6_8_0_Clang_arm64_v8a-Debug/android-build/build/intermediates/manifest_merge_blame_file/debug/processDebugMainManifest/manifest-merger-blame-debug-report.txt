@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example.CalculusSystem"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="28"
+10        android:targetSdkVersion="34" />
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:7:5-67
+12-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:8:5-81
+13-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:8:22-78
+14
+15    <supports-screens
+15-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:10:5-14:39
+16        android:anyDensity="true"
+16-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:11:9-34
+17        android:largeScreens="true"
+17-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:12:9-36
+18        android:normalScreens="true"
+18-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:13:9-37
+19        android:smallScreens="true" />
+19-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:14:9-36
+20
+21    <permission
+21-->[androidx.core:core:1.13.1] /Users/marat/.gradle/caches/8.10/transforms/614f50bb2b90647a5f75820a3da4b2e4/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+22        android:name="org.qtproject.example.CalculusSystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.1] /Users/marat/.gradle/caches/8.10/transforms/614f50bb2b90647a5f75820a3da4b2e4/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.1] /Users/marat/.gradle/caches/8.10/transforms/614f50bb2b90647a5f75820a3da4b2e4/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="org.qtproject.example.CalculusSystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.1] /Users/marat/.gradle/caches/8.10/transforms/614f50bb2b90647a5f75820a3da4b2e4/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.1] /Users/marat/.gradle/caches/8.10/transforms/614f50bb2b90647a5f75820a3da4b2e4/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:15:5-51:19
+28        android:name="org.qtproject.qt.android.bindings.QtApplication"
+28-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:16:9-71
+29        android:allowBackup="true"
+29-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:20:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.13.1] /Users/marat/.gradle/caches/8.10/transforms/614f50bb2b90647a5f75820a3da4b2e4/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+33        android:fullBackupOnly="false"
+33-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:21:9-39
+34        android:hardwareAccelerated="true"
+34-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:17:9-43
+35        android:label="CalculusSystem"
+35-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:18:9-39
+36        android:requestLegacyExternalStorage="true" >
+36-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:19:9-52
+37        <activity
+37-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:22:9-40:20
+38            android:name="org.qtproject.qt.android.bindings.QtActivity"
+38-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:23:13-72
+39            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+39-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:24:13-182
+40            android:exported="true"
+40-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:27:13-36
+41            android:launchMode="singleTop"
+41-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:25:13-43
+42            android:screenOrientation="unspecified" >
+42-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:26:13-52
+43            <intent-filter>
+43-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:28:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:29:17-69
+44-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:29:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:30:17-77
+46-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48
+49            <meta-data
+49-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:33:11-35:50
+50                android:name="android.app.lib_name"
+50-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:34:17-52
+51                android:value="CalculusSystem" />
+51-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:35:17-47
+52            <meta-data
+52-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:37:11-39:36
+53                android:name="android.app.arguments"
+53-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:38:17-53
+54                android:value="" />
+54-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:39:17-33
+55        </activity>
+56
+57        <provider
+58            android:name="androidx.core.content.FileProvider"
+58-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:43:13-62
+59            android:authorities="org.qtproject.example.CalculusSystem.qtprovider"
+59-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:44:13-62
+60            android:exported="false"
+60-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:45:13-37
+61            android:grantUriPermissions="true" >
+61-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:46:13-47
+62            <meta-data
+62-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:47:13-49:59
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:48:17-67
+64                android:resource="@xml/qtprovider_paths" />
+64-->/Users/marat/selfQtProject/CalculusSystem/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build/AndroidManifest.xml:49:17-57
+65        </provider>
+66        <provider
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+68            android:authorities="org.qtproject.example.CalculusSystem.androidx-startup"
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+72                android:value="androidx.startup" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+73        </provider>
+74
+75        <receiver
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+77            android:directBootAware="false"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+78            android:enabled="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+79            android:exported="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+80            android:permission="android.permission.DUMP" >
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/marat/.gradle/caches/8.10/transforms/acbc698e3f0c16775281193bdfceb4d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+92            </intent-filter>
+93        </receiver>
+94    </application>
+95
+96</manifest>
