@@ -12,27 +12,34 @@ CONFIG += sdk_no_version_check
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    BCD-binary-coded-decimal.cpp \
     BinarySystem.cpp \
     DecimalSystem.cpp \
+    GraySystem.cpp \
     HexadecimalSystem.cpp \
     OctalSystem.cpp \
+    calculate.cpp \
     desktop.cpp \
     main.cpp \
     mobile.cpp \
     mobileandroid.cpp
 
 HEADERS += \
+    BCD-binary-coded-decimal.h \
     BinarySystem.h \
     DecimalSystem.h \
+    GraySystem.h \
     HexadecimalSystem.h \
     Library.h \
     OctalSystem.h \
+    calculate.h \
     desktop.h \
     mobile.h \
     mobileandroid.h \
     testingForInput.h
 
 FORMS += \
+    calculate.ui \
     desktop.ui \
     mobile.ui \
     mobileandroid.ui

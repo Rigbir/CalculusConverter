@@ -1,5 +1,6 @@
 dependencies: /Users/marat/selfQtProject/CalculusSystem/desktop.cpp \
-  ../../../CalculusSystem/desktop.h ../../../CalculusSystem/Library.h \
+  /Users/marat/selfQtProject/CalculusSystem/desktop.h \
+  ../../../CalculusSystem/Library.h \
   ../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QString \
   ../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/qstring.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers/qchar.h \
@@ -181,11 +182,20 @@ dependencies: /Users/marat/selfQtProject/CalculusSystem/desktop.cpp \
   /Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers/qvariantanimation.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers/qabstractanimation.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers/qeasingcurve.h \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QRadioButton \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qradiobutton.h \
+  /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QButtonGroup \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qbuttongroup.h \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QStackedWidget \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   ../../../CalculusSystem/DecimalSystem.h \
   ../../../CalculusSystem/BinarySystem.h \
   ../../../CalculusSystem/OctalSystem.h \
   ../../../CalculusSystem/HexadecimalSystem.h \
-  ../../../CalculusSystem/mobile.h ui_mobile.h \
+  ../../../CalculusSystem/BCD-binary-coded-decimal.h \
+  ../../../CalculusSystem/GraySystem.h ../../../CalculusSystem/mobile.h \
+  ../../../CalculusSystem/mobileandroid.h ui_mobile.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers/QVariant \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QApplication \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qapplication.h \
@@ -221,18 +231,14 @@ dependencies: /Users/marat/selfQtProject/CalculusSystem/desktop.cpp \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QLineEdit \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QWidget \
-  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QListWidget \
-  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qlistwidget.h \
-  /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qlistview.h \
-  /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qabstractitemview.h \
-  /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
-  /Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers/qitemselectionmodel.h \
-  ui_desktop.h \
+  ui_mobileandroid.h \
+  /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QRadioButton \
+  ../../../CalculusSystem/calculate.h \
+  /Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/ui_desktop.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qgridlayout.h \
-  ../../../CalculusSystem/testingForInput.h
+  /Users/marat/selfQtProject/CalculusSystem/testingForInput.h

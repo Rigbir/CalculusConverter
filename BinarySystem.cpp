@@ -2,7 +2,7 @@
 
 // 2 -> 8
 QString binaryToEight(QString number) {
-    QHash<QString, int> map = {
+    QHash<QString, size_t> map = {
        {"000", 0}, {"001", 1}, {"010", 2}, {"011", 3},
        {"100", 4}, {"101", 5}, {"110", 6}, {"111", 7},
        };
@@ -41,7 +41,7 @@ QString binaryToEight(QString number) {
         }
 
         final += ".";
-        for (int i = 0; i < fractionalPart.size(); i += 3){
+        for (size_t i = 0; i < fractionalPart.size(); i += 3){
             QString group = fractionalPart.mid(i, 3);
             final += QString::number(map[group]);
         }
@@ -53,11 +53,11 @@ QString binaryToEight(QString number) {
 // 2 -> 10
 QString binaryToOrdinary(QString number) {
     QStringList parts = number.split('.');
-    int sum = 0;
-    int power = 1;
+    size_t sum = 0;
+    size_t power = 1;
 
     for (int i = parts[0].length() - 1; i >= 0; --i) {
-        if (parts[0][i] == QChar('1'))
+        if (parts[0][i] == '1')
             sum += power;
         power *= 2;
     }
@@ -68,12 +68,12 @@ QString binaryToOrdinary(QString number) {
         double fractionalPart = 0.0;
 
         for (int i = 0; i < parts[1].size(); ++i){
-            if (parts[1][i] == QChar('1'))
+            if (parts[1][i] == '1')
                 fractionalPart += pow(2, -(i + 1));
         }
 
         if (fractionalPart > 0)
-            final += "." + QString::number(fractionalPart, 'f',6).remove(0, 2);
+            final += "." + QString::number(fractionalPart, 'f', 6).remove(0, 2);
     }
 
     return final;
@@ -92,10 +92,10 @@ QString binaryToSixteen(QString number) {
     std::stack<QChar> sum;
     QString current;
 
-    QString integerPart = parts[0];
+    QString size_tegerPart = parts[0];
 
-    for (int i = integerPart.length() - 1; i >= 0; --i) {
-        current.prepend(integerPart[i]);
+    for (int i = size_tegerPart.length() - 1; i >= 0; --i) {
+        current.prepend(size_tegerPart[i]);
 
         if (current.size() == 4) {
             if (map.contains(current))
@@ -140,3 +140,33 @@ QString binaryToSixteen(QString number) {
     return final.isEmpty() ? "0" : final;
 }
 
+//2 -> BCD
+QString binaryToBCD(QString number){
+    QString final = binaryToOrdinary(number);
+    return toBCD(final);
+}
+
+//2 -> Grey
+QString binaryToGrey(QString number){
+    QStringList parts = number.split('.');
+    QString greyCode;
+
+    if (!parts[0].isEmpty()){
+        greyCode += parts[0][0];
+
+        for (int i = 1; i < parts[0].size(); ++i){
+            greyCode += QString::number(parts[0][i - 1].digitValue() ^ parts[0][i].digitValue());
+        }
+    }
+
+    if (parts.size() == 2 && !parts[1].isEmpty()){
+        greyCode += '.';
+
+        for (int i = 0; i < parts[1].size(); ++i){
+            int prevBit = (i == 0) ? parts[0].back().digitValue() : parts[1][i - 1].digitValue();
+            greyCode += QString::number(prevBit ^ parts[1][i].digitValue());
+        }
+    }
+
+    return greyCode.isEmpty() ? "0" : greyCode;
+}

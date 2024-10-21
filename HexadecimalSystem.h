@@ -8,5 +8,11 @@ QString sixteenToBinary(QString number);
 QString sixteenToEight(QString number);
 
 // 16 -> 10
-int powerSixteen(int powerSize);
+size_t powerSixteen(size_t powerSize);
 QString sixteenToTen(QString number);
+
+// 16 -> BCD
+QString sixteenToBCD(QString number);
+
+//16 -> Grey
+QString sixteenToGrey(QString number);

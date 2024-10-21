@@ -36,16 +36,16 @@ QString eightToBinary(QString number){
 }
 
 // 8 -> 10
-int power(int powerSize){
+size_t power(size_t powerSize){
     return (powerSize == 0) ? 1 : 8 * power(powerSize - 1);
 }
 QString eightToTen(QString number){
     QStringList parts = number.split('.');
-    int sum = 0;
-    int x = 0;
+    size_t sum = 0;
+    size_t x = 0;
 
     for (int i = parts[0].length() - 1; i >= 0; --i){
-        int digit = parts[0][i].toLatin1() - '0';
+        size_t digit = parts[0][i].toLatin1() - '0';
         sum += digit * power(x);
         ++x;
     }
@@ -56,7 +56,7 @@ QString eightToTen(QString number){
         double fractionaPart = 0.0;
 
         for (int i = 0; i < parts[1].size(); ++i){
-            int digit = parts[1][i].toLatin1() - '0';
+            size_t digit = parts[1][i].toLatin1() - '0';
             fractionaPart += digit * pow(8, -(i + 1));
         }
 
@@ -74,3 +74,14 @@ QString eightToSixteen(QString numbmer){
     return hexResult;
 }
 
+// 8 -> BCD
+QString eightToBCD(QString number){
+    QString final = eightToTen(number);
+    return toBCD(final);
+}
+
+//8 -> Grey
+QString eightToGrey(QString number){
+    QString final = eightToBinary(number);
+    return binaryToGrey(final);
+}

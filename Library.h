@@ -18,9 +18,14 @@
 #include <QLineEdit>
 #include <QTranslator>
 #include <QPropertyAnimation>
+#include <QRadioButton>
+#include <QButtonGroup>
+#include <QStackedWidget>
 
 #include <DecimalSystem.h>
 #include <BinarySystem.h>
 #include <OctalSystem.h>
 #include <HexadecimalSystem.h>
+#include <BCD-binary-coded-decimal.h>
+#include <GraySystem.h>
 

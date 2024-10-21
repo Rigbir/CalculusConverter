@@ -1,6 +1,4 @@
-#ifndef MOBILEANDROID_H
-#define MOBILEANDROID_H
-
+#pragma once
 #include <QWidget>
 
 namespace Ui {
@@ -19,4 +17,3 @@ private:
     Ui::mobileAndroid *ui;
 };
 
-#endif // MOBILEANDROID_H

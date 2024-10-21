@@ -183,6 +183,15 @@ dependencies: \
   /Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers/qvariantanimation.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers/qabstractanimation.h \
   /Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers/qeasingcurve.h \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QRadioButton \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qradiobutton.h \
+  /Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QButtonGroup \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qbuttongroup.h \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QStackedWidget \
+  ../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   ../../../CalculusSystem/DecimalSystem.h \
   ../../../CalculusSystem/BinarySystem.h \
-  ../../../CalculusSystem/OctalSystem.h
+  ../../../CalculusSystem/OctalSystem.h \
+  ../../../CalculusSystem/BCD-binary-coded-decimal.h \
+  ../../../CalculusSystem/GraySystem.h

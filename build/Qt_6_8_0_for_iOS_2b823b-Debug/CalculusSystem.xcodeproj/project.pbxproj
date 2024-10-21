@@ -16,6 +16,21 @@
 			shellScript = "make -C /Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug -f CalculusSystem.xcodeproj/qt_makeqmake.mak";
 			showEnvVarsInLog = "0";
 		};
+		13D6DD94A62270D6FAD2923D = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/BCD-binary-coded-decimal.cpp";
+			name = "BCD-binary-coded-decimal.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4913A1DCE7FB16D560D6D95E = {
+			fileRef = "13D6DD94A62270D6FAD2923D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
 		573985CC2A78097D095DA33C = {
 			isa = PBXFileReference;
 			path = "/Users/marat/selfQtProject/CalculusSystem/BinarySystem.cpp";
@@ -46,6 +61,21 @@
 					);
 			};
 		};
+		94884807F816242AB81DFD8A = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/GraySystem.cpp";
+			name = "GraySystem.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9813378E87CEA4CD20CE66DD = {
+			fileRef = "94884807F816242AB81DFD8A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
 		BC737A45A106EAA945EDA7FC = {
 			isa = PBXFileReference;
 			path = "/Users/marat/selfQtProject/CalculusSystem/HexadecimalSystem.cpp";
@@ -70,6 +100,21 @@
 		};
 		B6BABC4968E864CBA3B3AB3D = {
 			fileRef = "E30F6AD995277360BE5B040C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		805E9D3FBD0E8BE82A1BF0E6 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/calculate.cpp";
+			name = "calculate.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		128840AB09B5EC541AF5EFE8 = {
+			fileRef = "805E9D3FBD0E8BE82A1BF0E6";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
@@ -121,6 +166,21 @@
 					);
 			};
 		};
+		15B2E33D41E6F73A0AD140A2 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/mobileandroid.cpp";
+			name = "mobileandroid.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C2843E388451E87FF6036E08 = {
+			fileRef = "15B2E33D41E6F73A0AD140A2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
 		56A43D6D5CB876C0B9FFBFF2 = {
 			isa = PBXFileReference;
 			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/calculussystem_plugin_import.cpp";
@@ -145,6 +205,21 @@
 		};
 		20BDD665F4EB5EDF30B082BE = {
 			fileRef = "98762673723DBB6A9F4F8EB6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EAB3C83CF51E572F622B28FA = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/moc_calculate.cpp";
+			name = "moc_calculate.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B32C8B79854A209090671D92 = {
+			fileRef = "EAB3C83CF51E572F622B28FA";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
@@ -181,6 +256,28 @@
 					);
 			};
 		};
+		6120C357CD1B99D8CB36E895 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/moc_mobileandroid.cpp";
+			name = "moc_mobileandroid.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FA61220BE23DE111D8AC2302 = {
+			fileRef = "6120C357CD1B99D8CB36E895";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F13095D83BA571107CEF260B = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/ui_calculate.h";
+			name = "ui_calculate.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
 		B15EE2688D3F75698531D10A = {
 			isa = PBXFileReference;
 			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/ui_desktop.h";
@@ -195,6 +292,20 @@
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
+		ED9212132E3634FA96587F94 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug/ui_mobileandroid.h";
+			name = "ui_mobileandroid.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C2791A38A41FC4C247CF6BA7 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/BCD-binary-coded-decimal.h";
+			name = "BCD-binary-coded-decimal.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
 		2447D314681BD1EA06590CC5 = {
 			isa = PBXFileReference;
 			path = "/Users/marat/selfQtProject/CalculusSystem/BinarySystem.h";
@@ -206,6 +317,13 @@
 			isa = PBXFileReference;
 			path = "/Users/marat/selfQtProject/CalculusSystem/DecimalSystem.h";
 			name = "DecimalSystem.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9A649982A4E9E9BD0C808854 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/GraySystem.h";
+			name = "GraySystem.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
@@ -230,6 +348,13 @@
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
+		BB97F1FF0B2154CAAD9AA640 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/calculate.h";
+			name = "calculate.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
 		5CC836BDED4E0175D8A512D0 = {
 			isa = PBXFileReference;
 			path = "/Users/marat/selfQtProject/CalculusSystem/desktop.h";
@@ -241,6 +366,13 @@
 			isa = PBXFileReference;
 			path = "/Users/marat/selfQtProject/CalculusSystem/mobile.h";
 			name = "mobile.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5BB1BE8EB790CE387912853B = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/mobileandroid.h";
+			name = "mobileandroid.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
@@ -260,6 +392,20 @@
 		};
 		D23AEE918302CA55DE298818 = {
 			fileRef = "3DEE7CF6C61B301CA7016CF1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FCDBD1A437E49871893F964C = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/calculate.ui";
+			name = "calculate.ui";
+			sourceTree = "<absolute>";
+		};
+		A4B6761684EEB414B18542F6 = {
+			fileRef = "FCDBD1A437E49871893F964C";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
@@ -288,6 +434,20 @@
 		};
 		CB6223C748D71CD53F5FC238 = {
 			fileRef = "72CC153FCD1498949DCBC653";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8915CC8BF3C3831B0A38ED68 = {
+			isa = PBXFileReference;
+			path = "/Users/marat/selfQtProject/CalculusSystem/mobileandroid.ui";
+			name = "mobileandroid.ui";
+			sourceTree = "<absolute>";
+		};
+		5E28C1F7E4E31CCF4ED82737 = {
+			fileRef = "8915CC8BF3C3831B0A38ED68";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
@@ -333,10 +493,14 @@
 			children = (
 				"56A43D6D5CB876C0B9FFBFF2",
 				"98762673723DBB6A9F4F8EB6",
+				"EAB3C83CF51E572F622B28FA",
 				"B3414EEBF7D897DE1870116A",
 				"506FFA6C0F9C936382CF1057",
+				"6120C357CD1B99D8CB36E895",
+				"F13095D83BA571107CEF260B",
 				"B15EE2688D3F75698531D10A",
-				"01C9A19665FF393E376D01F3");
+				"01C9A19665FF393E376D01F3",
+				"ED9212132E3634FA96587F94");
 			name = "Qt_6_8_0_for_iOS_2b823b-Debug";
 			sourceTree = "<group>";
 		};
@@ -364,20 +528,28 @@
 		2EB56BE3C2D93CDAB0C52E67 = {
 			isa = PBXGroup;
 			children = (
+				"13D6DD94A62270D6FAD2923D",
 				"573985CC2A78097D095DA33C",
 				"7CD0DF2E866F65F2F07E3ECC",
+				"94884807F816242AB81DFD8A",
 				"BC737A45A106EAA945EDA7FC",
 				"E30F6AD995277360BE5B040C",
+				"805E9D3FBD0E8BE82A1BF0E6",
 				"BFC62ACB0941381357DF15B1",
 				"3901B1253460F471CF4DA832",
 				"A43FBC130F28D33A02BB64E6",
+				"15B2E33D41E6F73A0AD140A2",
+				"C2791A38A41FC4C247CF6BA7",
 				"2447D314681BD1EA06590CC5",
 				"5BAEC02260323427FE915BF9",
+				"9A649982A4E9E9BD0C808854",
 				"A8A84CDE8A803E258567BC9D",
 				"1B379B9D39928DD0D9E21820",
 				"A0A4D49DCF2135FEC687BF73",
+				"BB97F1FF0B2154CAAD9AA640",
 				"5CC836BDED4E0175D8A512D0",
 				"4BCC2B4ECE466FE8EF20F5CC",
+				"5BB1BE8EB790CE387912853B",
 				"56F97BFA9E45BD65C9DA0964");
 			name = "Sources";
 			sourceTree = "<group>";
@@ -385,8 +557,10 @@
 		12E908B8A1C3C07C115504F5 = {
 			isa = PBXGroup;
 			children = (
+				"FCDBD1A437E49871893F964C",
 				"835AF5F310D9DDFF9978310D",
-				"72CC153FCD1498949DCBC653");
+				"72CC153FCD1498949DCBC653",
+				"8915CC8BF3C3831B0A38ED68");
 			name = "Sources [uic]";
 			sourceTree = "<group>";
 		};
@@ -408,16 +582,24 @@
 			name = "Qt Preprocessors";
 			inputPaths = (
 				"../../resources.qrc",
+				"../../calculate.h",
 				"../../desktop.h",
 				"../../mobile.h",
+				"../../mobileandroid.h",
+				"../../calculate.ui",
 				"../../desktop.ui",
-				"../../mobile.ui");
+				"../../mobile.ui",
+				"../../mobileandroid.ui");
 			outputPaths = (
 				"qrc_resources.cpp",
+				"moc_calculate.cpp",
 				"moc_desktop.cpp",
 				"moc_mobile.cpp",
+				"moc_mobileandroid.cpp",
+				"ui_calculate.h",
 				"ui_desktop.h",
-				"ui_mobile.h");
+				"ui_mobile.h",
+				"ui_mobileandroid.h");
 			shellPath = "/bin/sh";
 			shellScript = "make -C /Users/marat/selfQtProject/CalculusSystem/build/Qt_6_8_0_for_iOS_2b823b-Debug -f CalculusSystem.xcodeproj/qt_preprocess.mak";
 			showEnvVarsInLog = "0";
@@ -426,17 +608,23 @@
 		F7E50F631C51CD5B5DC0BC43 = {
 			buildActionMask = 2147483647;
 			files = (
+				"4913A1DCE7FB16D560D6D95E",
 				"0C7FE9E3568DA6D94038B716",
 				"5A4A4CC0D9EAEFCC6D727109",
+				"9813378E87CEA4CD20CE66DD",
 				"88FE3024F6D626D387FABF90",
 				"B6BABC4968E864CBA3B3AB3D",
+				"128840AB09B5EC541AF5EFE8",
 				"EB6FC245B7EA2BD37D590AAE",
 				"BC00BE6F4A6A7657186263B3",
 				"CD4685183E7C9703F9C52BF6",
+				"C2843E388451E87FF6036E08",
 				"A53C9B5BDF675BB498DF2466",
 				"20BDD665F4EB5EDF30B082BE",
+				"B32C8B79854A209090671D92",
 				"B82FD828397DE7CEC903A02A",
-				"C58BE00F03B369CFB5A689C0");
+				"C58BE00F03B369CFB5A689C0",
+				"FA61220BE23DE111D8AC2302");
 			isa = PBXSourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Compile Sources";

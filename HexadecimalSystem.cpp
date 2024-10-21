@@ -38,16 +38,16 @@ QString sixteenToEight(QString number){
 }
 
 // 16 -> 10
-int powerSixteen(int powerSize){
+size_t powerSixteen(size_t powerSize){
     return (powerSize == 0) ? 1 : 16 * powerSixteen(powerSize - 1);
 }
 QString sixteenToTen(QString number){
     QStringList parts = number.split('.');
-    int sum = 0;
-    int x = 0;
+    size_t sum = 0;
+    size_t x = 0;
 
     for (int i = parts[0].length() - 1; i >= 0; --i){
-        int numb = 0;
+        size_t numb = 0;
         if (parts[0][i].isDigit())
             numb = parts[0][i].digitValue();
         else if (parts[0][i] >= 'A' && parts[0][i] <= 'F')
@@ -77,4 +77,16 @@ QString sixteenToTen(QString number){
     }
 
     return final;
+}
+
+// 16 -> BCD
+QString sixteenToBCD(QString number){
+    QString final = sixteenToTen(number);
+    return toBCD(final);
+}
+
+//16 -> Grey
+QString sixteenToGrey(QString number){
+    QString final = sixteenToBinary(number);
+    return binaryToGrey(final);
 }

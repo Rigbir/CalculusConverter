@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>calculate</class>
+ <widget class="QWidget" name="calculate">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Calculus Converter</string>
+  </property>
+  <widget class="QLineEdit" name="inputFirst">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>20</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #648374;
+border: 1px solid black;
+font-size: 24px;
+color: white;
+
+</string>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <property name="cursorPosition">
+    <number>0</number>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Input Your Value</string>
+   </property>
+   <property name="cursorMoveStyle">
+    <enum>Qt::CursorMoveStyle::LogicalMoveStyle</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #728495;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::WinPanel</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700; color:#544169;&quot;&gt;Resulting Number&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="result">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>180</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #648374;
+border: 1px solid black;
+font-size: 24px;
+color: white;
+
+</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #728495;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::WinPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700; color:#544169;&quot;&gt;Second Number&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::TextFormat::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="calculateButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>321</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #728495;
+    border: 2px solid #111;
+    border-radius: 8px;
+    color: #111;
+    font-size: 36px;
+    height: 48px;
+    padding: 0 25px;
+    text-align: center;
+    position: relative;
+    outline: none;
+}
+
+QPushButton:hover {
+    background-color: #4a5b6a; 
+}
+
+QPushButton:pressed {
+    background-color: #4a5b6a; 
+}
+
+QPushButton::before {
+    background-color: #111;
+    border-radius: 8px;
+    content: &quot;&quot;;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    QPushButton {
+        padding: 0 40px;
+    }
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>calculate</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="secondBox">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>100</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>2 (binary)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8 (octal)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10 (ordinary)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16 (hexadecimal)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>BCD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gray</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="firstBox">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <item>
+    <property name="text">
+     <string>2 (binary)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8 (octal)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10 (ordinary)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16 (hexadecimal)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>BCD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gray</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="resetButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>370</y>
+     <width>321</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #728495;
+    border: 2px solid #111;
+    border-radius: 8px;
+    color: #111;
+    font-size: 36px;
+    height: 48px;
+    padding: 0 25px;
+    text-align: center;
+    position: relative;
+    outline: none;
+}
+
+QPushButton:hover {
+    background-color: #4a5b6a; 
+}
+
+QPushButton:pressed {
+    background-color: #4a5b6a; 
+}
+
+QPushButton::before {
+    background-color: #111;
+    border-radius: 8px;
+    content: &quot;&quot;;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    QPushButton {
+        padding: 0 40px;
+    }
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>reset</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inputSecond">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>100</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #648374;
+border: 1px solid black;
+font-size: 24px;
+color: white;
+
+</string>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Input Your Value</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #728495;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::WinPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700; color:#544169;&quot;&gt;First Number&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::TextFormat::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="errorMessage">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>60</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 3px solid red;
+color: red;
+background-color: (66, 66, 66);
+font-size: 24px;</string>
+   </property>
+   <property name="text">
+    <string>Wrong Input</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="operatorBox">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>180</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>*</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>/</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #728495;
+    border: 2px solid #111;
+    border-radius: 8px;
+    color: #111;
+    font-size: 36px;
+    height: 48px;
+    padding: 0 25px;
+    text-align: center;
+    position: relative;
+    outline: none;
+}
+
+QPushButton:hover {
+    background-color: #4a5b6a; 
+}
+
+QPushButton:pressed {
+    background-color: #4a5b6a; 
+}
+
+QPushButton::before {
+    background-color: #111;
+    border-radius: 8px;
+    content: &quot;&quot;;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    QPushButton {
+        padding: 0 40px;
+    }
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>back</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

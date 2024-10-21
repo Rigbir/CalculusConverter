@@ -32,7 +32,9 @@ check: first
 
 benchmark: first
 
-compilers: qrc_resources.cpp moc_desktop.cpp moc_mobile.cpp ui_desktop.h ui_mobile.h
+compilers: qrc_resources.cpp moc_calculate.cpp moc_desktop.cpp moc_mobile.cpp\
+	 moc_mobileandroid.cpp ui_calculate.h ui_desktop.h ui_mobile.h\
+	 ui_mobileandroid.h
 compiler_rcc_make_all: qrc_resources.cpp
 compiler_rcc_clean:
 	-$(DEL_FILE) qrc_resources.cpp
@@ -41,9 +43,34 @@ qrc_resources.cpp: ../../resources.qrc \
 		../../translations/CalculusSystem_ru_RU.qm
 	/Users/marat/Qt/6.8.0/macos/libexec/rcc -name resources --no-zstd ../../resources.qrc -o qrc_resources.cpp
 
-compiler_moc_header_make_all: moc_desktop.cpp moc_mobile.cpp
+compiler_moc_header_make_all: moc_calculate.cpp moc_desktop.cpp moc_mobile.cpp moc_mobileandroid.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_desktop.cpp moc_mobile.cpp
+	-$(DEL_FILE) moc_calculate.cpp moc_desktop.cpp moc_mobile.cpp moc_mobileandroid.cpp
+moc_calculate.cpp: ../../calculate.h \
+		../../Library.h \
+		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QString \
+		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QHash \
+		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QSet \
+		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QChar \
+		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QMap \
+		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QWidget \
+		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QPointer \
+		../../../../Qt/6.8.0/ios/lib/QtGui.framework/Headers/QPalette \
+		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QLineEdit \
+		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QTranslator \
+		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QPropertyAnimation \
+		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QRadioButton \
+		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QButtonGroup \
+		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QStackedWidget \
+		../../DecimalSystem.h \
+		../../BinarySystem.h \
+		../../OctalSystem.h \
+		../../HexadecimalSystem.h \
+		../../BCD-binary-coded-decimal.h \
+		../../GraySystem.h \
+		../../../../Qt/6.8.0/macos/libexec/moc
+	/Users/marat/Qt/6.8.0/macos/libexec/moc $(DEFINES) -D__APPLE__ -D__GNUC__=4 -D__APPLE_CC__ -D__cplusplus=201703L -D__APPLE_CC__=6000 -D__clang__ -D__clang_major__=17 -D__clang_minor__=0 -D__clang_patchlevel__=2 -D__GNUC__=4 -D__GNUC_MINOR__=2 -D__GNUC_PATCHLEVEL__=1 -I/Users/marat/Qt/6.8.0/ios/mkspecs/macx-ios-clang -I/Users/marat/selfQtProject/CalculusSystem -I/Users/marat/Qt/6.8.0/ios/mkspecs/common/uikit -I/Users/marat/Qt/6.8.0/ios/lib/QtUiTools.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtOpenGLWidgets.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtOpenGL.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtGui.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers -I. -I/Users/marat/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -F/Users/marat/Qt/6.8.0/ios/lib ../../calculate.h -o moc_calculate.cpp
+
 moc_desktop.cpp: ../../desktop.h \
 		../../Library.h \
 		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QString \
@@ -57,13 +84,20 @@ moc_desktop.cpp: ../../desktop.h \
 		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QLineEdit \
 		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QTranslator \
 		../../../../Qt/6.8.0/ios/lib/QtCore.framework/Headers/QPropertyAnimation \
+		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QRadioButton \
+		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QButtonGroup \
+		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QStackedWidget \
 		../../DecimalSystem.h \
 		../../BinarySystem.h \
 		../../OctalSystem.h \
 		../../HexadecimalSystem.h \
+		../../BCD-binary-coded-decimal.h \
+		../../GraySystem.h \
 		../../mobile.h \
+		../../mobileandroid.h \
 		ui_mobile.h \
-		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QListWidget \
+		ui_mobileandroid.h \
+		../../calculate.h \
 		../../../../Qt/6.8.0/macos/libexec/moc
 	/Users/marat/Qt/6.8.0/macos/libexec/moc $(DEFINES) -D__APPLE__ -D__GNUC__=4 -D__APPLE_CC__ -D__cplusplus=201703L -D__APPLE_CC__=6000 -D__clang__ -D__clang_major__=17 -D__clang_minor__=0 -D__clang_patchlevel__=2 -D__GNUC__=4 -D__GNUC_MINOR__=2 -D__GNUC_PATCHLEVEL__=1 -I/Users/marat/Qt/6.8.0/ios/mkspecs/macx-ios-clang -I/Users/marat/selfQtProject/CalculusSystem -I/Users/marat/Qt/6.8.0/ios/mkspecs/common/uikit -I/Users/marat/Qt/6.8.0/ios/lib/QtUiTools.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtOpenGLWidgets.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtOpenGL.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtGui.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers -I. -I/Users/marat/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -F/Users/marat/Qt/6.8.0/ios/lib ../../desktop.h -o moc_desktop.cpp
 
@@ -72,13 +106,22 @@ moc_mobile.cpp: ../../mobile.h \
 		../../../../Qt/6.8.0/macos/libexec/moc
 	/Users/marat/Qt/6.8.0/macos/libexec/moc $(DEFINES) -D__APPLE__ -D__GNUC__=4 -D__APPLE_CC__ -D__cplusplus=201703L -D__APPLE_CC__=6000 -D__clang__ -D__clang_major__=17 -D__clang_minor__=0 -D__clang_patchlevel__=2 -D__GNUC__=4 -D__GNUC_MINOR__=2 -D__GNUC_PATCHLEVEL__=1 -I/Users/marat/Qt/6.8.0/ios/mkspecs/macx-ios-clang -I/Users/marat/selfQtProject/CalculusSystem -I/Users/marat/Qt/6.8.0/ios/mkspecs/common/uikit -I/Users/marat/Qt/6.8.0/ios/lib/QtUiTools.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtOpenGLWidgets.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtOpenGL.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtGui.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers -I. -I/Users/marat/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -F/Users/marat/Qt/6.8.0/ios/lib ../../mobile.h -o moc_mobile.cpp
 
+moc_mobileandroid.cpp: ../../mobileandroid.h \
+		../../../../Qt/6.8.0/ios/lib/QtWidgets.framework/Headers/QWidget \
+		../../../../Qt/6.8.0/macos/libexec/moc
+	/Users/marat/Qt/6.8.0/macos/libexec/moc $(DEFINES) -D__APPLE__ -D__GNUC__=4 -D__APPLE_CC__ -D__cplusplus=201703L -D__APPLE_CC__=6000 -D__clang__ -D__clang_major__=17 -D__clang_minor__=0 -D__clang_patchlevel__=2 -D__GNUC__=4 -D__GNUC_MINOR__=2 -D__GNUC_PATCHLEVEL__=1 -I/Users/marat/Qt/6.8.0/ios/mkspecs/macx-ios-clang -I/Users/marat/selfQtProject/CalculusSystem -I/Users/marat/Qt/6.8.0/ios/mkspecs/common/uikit -I/Users/marat/Qt/6.8.0/ios/lib/QtUiTools.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtOpenGLWidgets.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtWidgets.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtOpenGL.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtGui.framework/Headers -I/Users/marat/Qt/6.8.0/ios/lib/QtCore.framework/Headers -I. -I/Users/marat/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -F/Users/marat/Qt/6.8.0/ios/lib ../../mobileandroid.h -o moc_mobileandroid.cpp
+
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
-compiler_uic_make_all: ui_desktop.h ui_mobile.h
+compiler_uic_make_all: ui_calculate.h ui_desktop.h ui_mobile.h ui_mobileandroid.h
 compiler_uic_clean:
-	-$(DEL_FILE) ui_desktop.h ui_mobile.h
+	-$(DEL_FILE) ui_calculate.h ui_desktop.h ui_mobile.h ui_mobileandroid.h
+ui_calculate.h: ../../calculate.ui \
+		../../../../Qt/6.8.0/macos/libexec/uic
+	/Users/marat/Qt/6.8.0/macos/libexec/uic ../../calculate.ui -o ui_calculate.h
+
 ui_desktop.h: ../../desktop.ui \
 		../../../../Qt/6.8.0/macos/libexec/uic
 	/Users/marat/Qt/6.8.0/macos/libexec/uic ../../desktop.ui -o ui_desktop.h
@@ -86,6 +129,10 @@ ui_desktop.h: ../../desktop.ui \
 ui_mobile.h: ../../mobile.ui \
 		../../../../Qt/6.8.0/macos/libexec/uic
 	/Users/marat/Qt/6.8.0/macos/libexec/uic ../../mobile.ui -o ui_mobile.h
+
+ui_mobileandroid.h: ../../mobileandroid.ui \
+		../../../../Qt/6.8.0/macos/libexec/uic
+	/Users/marat/Qt/6.8.0/macos/libexec/uic ../../mobileandroid.ui -o ui_mobileandroid.h
 
 compiler_rez_source_make_all:
 compiler_rez_source_clean:
