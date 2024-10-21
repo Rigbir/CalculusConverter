@@ -13,14 +13,18 @@ An easy-to-use application for transferring from one number system to another.Th
 **Fixed-point numbers are supported**
 
 **The application is supported on systems:**
-1. macOs
+1. **macOs**
+
   ![](./screenshots/macOs.png)
 
-2. iOs
+2. **iOs**
+
   ![](./screenshots/iOs.png)
 
-3. Windows
+3. **Windows**
+
   ![](./screenshots/windows.png)
 
-4. Android
+4. **Android**
+
   ![](./screenshots/android.png)
