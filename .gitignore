@@ -75,6 +75,7 @@ CMakeLists.txt.user*
 #build/
 build/Qt_6_8_0_for_iOS_2b823b-Debug
 build/Qt_6_8_0_for_iOS_4e09d7-Debug
+build/Qt_6_8_0_for_macOS-Debug
 build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug
 !build/macOS-Release(Old version)
 !build/macOS-Release-NewVersion
