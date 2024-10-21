@@ -6,7 +6,7 @@
 *.a
 *.core
 *.moc
-*.o
+#*.o
 *.obj
 *.orig
 *.rej
@@ -25,7 +25,7 @@ tags
 *.debug
 Makefile*
 *.prl
-*.app
+#*.app
 moc_*.cpp
 ui_*.h
 qrc_*.cpp
