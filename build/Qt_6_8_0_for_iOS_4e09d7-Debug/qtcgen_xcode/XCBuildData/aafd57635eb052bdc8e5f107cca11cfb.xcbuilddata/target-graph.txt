@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'CalculusSystem' in project 'CalculusSystem'
-➜ Explicit dependency on target 'Qt Preprocess' in project 'CalculusSystem'
-Target 'Qt Preprocess' in project 'CalculusSystem' (no dependencies)
