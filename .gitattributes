@@ -1,2 +1,2 @@
-Makefile linguist-vendored=true
-build/* linguist-vendored=true
+* linguist-vendored
+*.cpp linguist-vendored=false
