@@ -1,1 +1,2 @@
-Makefile linguist-vendored=false
+*.cpp linguist-vendored=false
+Makefile linguist-vendored=true
