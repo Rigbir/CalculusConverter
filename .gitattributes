@@ -1,0 +1,2 @@
+*.C++ linguist-vendored=false
+*.Makefile linguist-vendored=true
