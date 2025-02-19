@@ -1,1 +1,2 @@
-CalculusSystem/build/* linguist-vendored
+Makefile linguist-vendored=true
+build/* linguist-vendored=true
