@@ -1,5 +1,7 @@
 # Calculus System Converter
 
+![Platform](https://img.shields.io/static/v1?label=platform&message=macOS%20%7C%20windows%20%7C%20android%20%7C%20iOS&color=informational)
+
 An easy-to-use application for transferring from one number system to another.The application is written in the Qt framework.
 
 **The application supports the following systems:**
